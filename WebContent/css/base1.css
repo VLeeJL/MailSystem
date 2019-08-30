@@ -1,0 +1,41 @@
+.grid{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 80px;
+    background-color: #848484;
+    align-items: center;
+}
+.grid-cell{
+    flex: 1;
+    border: 0px solid #000;
+	font-family:"微软雅黑";
+}
+#one{flex: 0.8;}
+#two{
+    flex: 6;
+    font-family: "宋体";
+    font-size: 1.4rem;
+    color: white;
+}
+#three{
+    flex: 2;
+    font-family: "宋体";
+    font-size: 1rem;
+    color: white;
+}
+#four{
+    flex: 2;
+    font-family: "宋体";
+    font-size: 0.8rem;
+    color: white; 
+}
+
+#five{
+    flex: 0.5;
+    font-family: "宋体";
+    font-size: 1rem;
+    color: white; 
+}
+

@@ -1,0 +1,116 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+	font-weight: 300;
+	font-size: 100px;
+}
+.menu{
+    width:1.81em;
+    padding:0em;
+    border:0em;
+    background-color:#99ccff;
+    font-size:1em;
+    margin:0;
+    overflow:hidden;
+}
+.menu ul li{
+    display:block;
+    width:3.11em;
+    padding-top:0em;
+    margin-bottom:0em;
+    background-color:#99ccff;
+    list-style:none;
+    overflow:visible;
+    }
+.menu ul li .active{
+    background:url(../images/on.png) top right no-repeat;
+}
+.menu ul li .inactive{
+    background:url(../images/off.png) top right no-repeat;
+}
+.menu ul li a{
+    display:block;
+    height:2.4em; 
+    width:8.6em;
+    margin-top:0.10em;
+    padding-top:0.05em;
+    padding-left:.8em;
+    font-size:.188em;
+    color:#000000;
+    outline:none;
+    }
+.menu ul li ul{
+    display:none; 
+    margin-top:-0.04em;
+    margin-bottom:.2em;
+}
+.menu ul li ul li ul{
+    margin-bottom:.05em;
+    }
+.menu ul li ul li{
+    display:block;
+    background:none;
+    font-size:0.12em;
+    list-style:circle;
+    color:#000000;
+    margin-bottom:0em;
+    margin-top:0em;
+    padding-top:0em;
+    padding-bottom:0em;
+    padding-left:1.2em;
+    margin-left:.5em;
+}
+.menu ul li ul li a{
+    background:none;
+    font-size:1.4em;
+    height:1.1em;
+    color:#000000;
+    padding-left:1.55em; 
+}
+@media screen and (max-width: 10em){
+    .menu ul li a{
+        display:block;
+        height:2.4em; 
+        width:8.6em;
+        margin-top:0.10em;
+        padding-top:0.05em;
+        padding-left:.8em;
+        font-size:.12em;
+        color:#000000;
+        outline:none;
+    }
+    .menu ul li .active{
+    background-color: #99ccff;
+}
+    .menu ul li .inactive{
+    background-color: #99ccff;
+}
+    .menu ul li ul{
+        display:none; 
+        margin-top:-0.04em;
+        margin-bottom:.2em;
+    }
+    .menu ul li ul li{
+        display:block;
+        background:none;
+        font-size:0.13em;
+        list-style:circle;
+        color:#000000;
+        margin-bottom:0em;
+        margin-top:0em;
+        padding-top:0em;
+        padding-bottom:0em;
+        padding-left:1.2em;
+        margin-left:.5em;
+    }
+    .menu ul li ul li a{
+        background:none;
+        font-size:.2em;
+        height:1.1em;
+        color:#000000;
+        padding-left:.55em; 
+}
+}

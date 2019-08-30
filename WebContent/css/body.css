@@ -1,0 +1,195 @@
+
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body, html { font-size: 90%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body{
+	background: #f9f7f6;
+	color: #404d5b;
+	font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
+}
+a{color: #2fa0ec;text-decoration: none;outline: none;}
+a:hover,a:focus{color:#74777b;}
+.bgcolor-1 { background: #f6e3ce; }
+.bgcolor-2 { background: #f9f9f9; }
+.bgcolor-3 { background: #e8e8e8; }/*light grey*/
+.bgcolor-4 { background: #2f3238; color: #fff; }/*Dark grey*/
+.bgcolor-5 { background: #df6659; color: #521e18; }/*pink1*/
+.bgcolor-6 { background: #2fa8ec; }/*sky blue*/
+.bgcolor-7 { background: #d0d6d6; }/*White tea*/
+.bgcolor-8 { background: #3d4444; color: #fff; }/*Dark grey2*/
+.bgcolor-9 { background: #ef3f52; color: #fff;}/*pink2*/
+.bgcolor-10{ background: #64448f; color: #fff;}/*Violet*/
+.bgcolor-11{ background: #3755ad; color: #fff;}/*dark blue*/
+.bgcolor-12{ background: #3498DB; color: #fff;}/*light blue*/
+.bgcolor-13 { color: #eee; }/*light grey*/
+.center{text-align: center;}
+/****/
+
+/* icomoon */
+.icon-htmleaf-home-outline:before {
+	content: "\e5000";
+}
+
+.icon-htmleaf-arrow-forward-outline:before {
+	content: "\e5001";
+}
+table#miyazaki { 
+	margin: 0 auto;
+	border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+	font-weight: 10; 
+	background: #333; color: #fff;
+	text-rendering: optimizeLegibility;
+	border-radius: 5px; 
+}
+table#miyazaki caption { 
+	font-size: 1.2rem; 
+  color: #444;
+	margin: 1rem;
+}
+table#miyazaki thead th { font-weight: 10; }
+table#miyazaki thead th, table#miyazaki tbody td { 
+	padding: .8rem; font-size: .9rem;
+}
+table#miyazaki tbody td { 
+	padding: .9rem; font-size: 0.9rem;
+	color: #444; background: #eee; 
+}
+table#miyazaki tbody tr:not(:last-child) { 
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;  
+}
+@media screen and (max-width: 600px) {
+	table#miyazaki caption { background-image: none; }
+	table#miyazaki thead { display: none; }
+	table#miyazaki tbody td { 
+	display: block; padding: .6rem; 
+	}
+	table#miyazaki tbody tr td:first-child { 
+	background: #666; color: #fff; 
+	}
+	table#miyazaki tbody td:before { 
+	content: attr(data-th); 
+	font-weight: bold;
+	display: inline-block;
+	width: 6rem;  
+	}
+}
+.grid{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.grid #one{
+	flex: 2;
+	text-align:center;
+}
+.grid #two{
+	flex: 0.5;
+	text-align: center;
+}
+.grid #three{
+	flex: 2;
+	text-align:center;
+}
+.operating {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8rem;
+	color: #121012;
+	padding: 0.3rem 1rem;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#948b6c);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		to(#948b6c));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #134201;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+#input1{
+	font-size: 0.8rem;
+	background-color: #e8e8e8;
+	color: #121012;
+	width:5.5rem;
+	border: 0px;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#input2{
+	font-size: 0.8rem;
+	background-color: #e8e8e8;
+	color: #121012;
+	width:23rem;
+	border: 0px;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
